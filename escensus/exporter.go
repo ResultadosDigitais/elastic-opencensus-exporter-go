@@ -1,11 +1,11 @@
-package elasticexporter
+package escensus
 
 import (
 	"go.elastic.co/apm"
 	"go.opencensus.io/trace"
 )
 
-// ElasticApmExporter is an implementation of opencensus/trace.Exporter that exports spans to Elastic APM.
+// Elastic	ApmExporter is an implementation of opencensus/trace.Exporter that exports spans to Elastic APM.
 type ElasticApmExporter struct {
 	Tracer *apm.Tracer
 }
