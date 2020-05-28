@@ -21,11 +21,11 @@ import (
 )
 
 func main() {
-    exporter, err := escensus.NewElasticApmExporter()
-
+    exporter, err := escensus.NewElasticApmExporter(
     if err != nil {
         panic(err)
     }
+    
     trace.RegisterExporter(exporter)
 }
 ```
