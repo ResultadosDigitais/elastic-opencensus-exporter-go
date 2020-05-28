@@ -15,7 +15,7 @@ $ go get -u github.com/newrelic/newrelic-opencensus-exporter-go
 package main
 
 import (
-    "github.com/newrelic/newrelic-opencensus-exporter-go/escensus"
+    "github.com/ResultadosDigitais/elastic-opencensus-exporter-go/escensus"
     "go.opencensus.io/stats/view"
     "go.opencensus.io/trace"
 )
