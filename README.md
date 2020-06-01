@@ -1,6 +1,6 @@
 # elastic-opencensus-exporter-go
 
-The `escensus` package provides an exporter for sending Opencensus stats and traces to Elastic.
+The `escensus` package provides an exporter for sending Opencensus stats (not implemented yet) and traces to Elastic.
 
 ## Install
 
