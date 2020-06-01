@@ -5,7 +5,7 @@ The `escensus` package provides an exporter for sending Opencensus stats (not im
 ## Install
 
 ```bash
-$ go get -u github.com/newrelic/newrelic-opencensus-exporter-go
+$ go get -u github.com/ResultadosDigitais/elastic-opencensus-exporter-go
 ```
 
 ## Using the exporter
