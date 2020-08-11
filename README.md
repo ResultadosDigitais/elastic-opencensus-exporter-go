@@ -33,3 +33,8 @@ You need to set some envvars to identify your service:
 | ServiceName        | ELASTIC_APM_SERVICE_NAME    | The Service Name that identifies your application               |
 | ServiceVersion     | ELASTIC_APM_SERVICE_VERSION | Represents the version of your application                      |
 | ServiceEnvironment | ELASTIC_APM_ENVIRONMENT     | Represents the environment of your application. eg: development |
+| | ELASTIC_APM_SERVER_URL | APM URL|
+| | ELASTIC_APM_SECRET_TOKEN | APM Secret Token |
+
+
+
