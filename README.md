@@ -21,7 +21,7 @@ import (
 )
 
 func main() {
-    exporter := escensus.NewElasticApmExporter(
+    exporter := escensus.NewElasticApmExporter()
     trace.RegisterExporter(exporter)
 }
 ```
