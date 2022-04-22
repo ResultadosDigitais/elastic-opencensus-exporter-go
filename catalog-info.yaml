@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: elastic-opencensus-exporter-go
+  description: O pacote escensus fornece um exportador para enviar estatísticas do Opencensus (ainda não implementadas) e rastreamentos para o Elastic.
+  annotations:
+    github.com/project-slug: ResultadosDigitais/elastic-opencensus-exporter-go
+spec:
+  type: library
+  owner: devtools
+  lifecycle: production
